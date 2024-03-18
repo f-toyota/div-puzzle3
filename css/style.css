@@ -1,0 +1,45 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.red--box {
+margin: 50px;
+width: 400px;
+height: 100px;
+background: #ff0000;
+}
+
+
+.green--box {
+float: left;
+width: 150px;
+height: 250px;
+background: #00ff51;
+}
+
+.brown--box {
+float: left;
+width: 250px;
+height: 250px;
+background: #8c2727;
+}
+.yellow--box {
+width: 400px;
+height: 100px;
+background: #ffd000;
+}
+
+.purple--box {
+	width: 40px;
+	height: 40px;
+	background: #a9004b;
+	}
+
+	.orange--box {
+		width: 140px;
+		height: 40px;
+		background: #ff863f;
+		}
+	
