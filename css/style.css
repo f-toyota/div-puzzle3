@@ -8,15 +8,18 @@
 width: 400px;
 height: 100px;
 background: #ff0000;
+position: relative;
 }
 
 .white {
-	float: right;
-	width: 160px;
-	height: 60px;
-	background: #ffffff;
-	margin: 20px 20px 0 0
-	}
+background: #ffffff;
+position: absolute;
+top: 20px; 
+right: 20px; 
+padding:10px
+}
+
+
 
 .green {
 float: left;
@@ -30,6 +33,7 @@ float: left;
 width: 250px;
 height: 250px;
 background: #8c2727;
+position: relative;
 }
 
 .yellow {
@@ -39,12 +43,15 @@ background: #ffd000;
 }
 
 .purple {
-	float: left;
-	width: 40px;
-	height: 40px;
-	background: #a9004b;
-	margin: 10px 0 10px 10px
-	}
+float: left;
+width: 40px;
+height: 40px;
+background: #a9004b;
+margin-right:10px;
+}
+.purple:nth-last-child(1){
+margin-right: 0
+}
 
 	.orange {
 		width: 140px;
@@ -58,13 +65,10 @@ float: left;
 width: 150px;
 height: 50px;
 background: #ffffff;
-margin: 40px 0 0 40px
-}
 
-.orange--2 {
-float: left;
-width: 150px;
-height: 50px;
-background: #ffffff;
 margin: 10px 0 0 40px
 }
+
+.orange--1:nth-last-child(3){
+	margin: 40px 0 0 40px
+	}
